@@ -1,0 +1,83 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 70px;
+
+    background:rgba(23,32,51,0.8);
+
+    backdrop-filter:blur(12px);
+
+    position:sticky;
+    top:0;
+
+    z-index:100;
+}
+
+.logo{
+
+    font-size:28px;
+    font-weight:bold;
+
+    color:#22D3EE;
+
+    display:flex;
+    align-items:center;
+
+    gap:8px;
+}
+
+.logo span{
+
+    color:white;
+}
+
+.nav-links{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:35px;
+
+    color:#CBD5E1;
+
+    cursor:pointer;
+}
+
+.nav-links li{
+
+    transition:0.3s;
+}
+
+.nav-links li:hover{
+
+    color:#22D3EE;
+}
+
+.report-btn{
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 24px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    transition:0.3s;
+}
+
+.report-btn:hover{
+
+    background:#1D4ED8;
+
+    transform:translateY(-2px);
+}

@@ -1,0 +1,98 @@
+.stats{
+    padding:100px 80px;
+    text-align:center;
+}
+
+.stats h2{
+    font-size:46px;
+    margin-bottom:12px;
+}
+
+.stats-subtitle{
+    color:var(--text-secondary);
+    margin-bottom:60px;
+}
+
+.stats-grid{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:28px;
+
+}
+
+.stat-card{
+
+background:rgba(255,255,255,.03);
+
+border:1px solid rgba(34,211,238,.12);
+
+border-radius:22px;
+
+padding:35px;
+
+transition:.35s;
+
+}
+
+.stat-card:hover{
+
+transform:translateY(-8px);
+
+border-color:#22d3ee;
+
+box-shadow:0 15px 35px rgba(34,211,238,.15);
+
+}
+
+.stat-icon{
+
+color:#22d3ee;
+
+margin-bottom:22px;
+
+}
+
+.stat-card h3{
+
+font-size:42px;
+
+margin-bottom:10px;
+
+font-weight:700;
+
+}
+
+.stat-card p{
+
+color:var(--text-secondary);
+
+}
+
+@media(max-width:900px){
+
+.stats-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:600px){
+
+.stats{
+
+padding:80px 20px;
+
+}
+
+.stats-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}

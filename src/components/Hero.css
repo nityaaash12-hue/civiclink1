@@ -1,0 +1,179 @@
+* {
+    transition: all 0.3s ease;
+}
+.hero{
+
+    min-height:calc(100vh - 80px);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:40px;
+}
+
+
+.hero-content{
+
+    max-width:850px;
+    position: relative;
+    z-index: 2;
+}
+.hero-content::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:500px;
+
+    height:500px;
+
+    background:#2563EB;
+
+    filter:blur(180px);
+
+    opacity:.12;
+
+    left:50%;
+
+    top:20%;
+
+    transform:translate(-50%,-50%);
+
+    z-index:-1;
+
+    border-radius:50%;
+
+}
+.hero h1{
+
+    font-size:70px;
+
+    line-height:1.2;
+
+    margin-bottom:25px;
+}
+
+.hero span {
+    background: linear-gradient(90deg, #3B82F6, #22D3EE);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    background-clip: text;
+}
+
+.hero p{
+
+    color:#94A3B8;
+
+    font-size:22px;
+
+    line-height:1.8;
+
+    margin-bottom:40px;
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+}
+
+
+.primary-btn{
+
+    background:#2563EB;
+
+    color:white;
+
+    padding:16px 34px;
+
+    border:none;
+
+    border-radius:14px;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:all .35s ease;
+
+    box-shadow:0 8px 25px rgba(37,99,235,.25);
+
+}
+.primary-btn:hover{
+
+    transform:translateY(-4px);
+
+    background:#1D4ED8;
+
+    box-shadow:0 5px 10px rgba(37,99,235,.45);
+
+}
+
+.secondary-btn{
+
+    background:transparent;
+
+    color:white;
+
+    border:1px solid #2563EB;
+
+    padding:16px 32px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-size:17px;
+}
+.secondary-btn:hover{
+
+    background:rgba(255,255,255,.05);
+
+    transform:translateY(-4px);
+
+}
+.logo{
+
+    transition:.4s;
+
+}
+.logo:hover{
+
+    transform:scale(1.03);
+
+}
+.hero h1{
+
+    animation:fadeUp .9s ease;
+
+}
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
