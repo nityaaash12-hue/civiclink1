@@ -19,7 +19,6 @@ function Home() {
       <Categories />
       <RecentReports/>
       <WhyCivic/>
-      <ReportCard />
       <Footer />
     </>
   );
