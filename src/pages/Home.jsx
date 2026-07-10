@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Stats from "../components/Stats";
 import Categories from "../components/Categories";
-import ReportCard from "../components/ReportCard";
+import ReportCard from "../components/Reportcard";
 import Footer from "../components/Footer";
 import HowItWorks from "../components/HowItWorks";
 import AIReport from "../components/AIReport";
