@@ -1,16 +1,129 @@
-# React + Vite
+# 🚀 CivicLink
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Making Cities Smarter. One Report at a Time.**
 
-Currently, two official plugins are available:
+CivicLink is an AI-powered civic issue reporting platform that helps citizens report public infrastructure problems quickly and efficiently. Users can describe issues such as potholes, broken streetlights, garbage overflow, water leaks, and more. The platform analyzes the report, identifies the appropriate department, and prioritizes the issue.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌟 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🤖 AI-powered civic issue analysis
+- 🛣️ Automatic issue categorization
+- 🏢 Department recommendation
+- ⚡ Priority detection
+- 📍 Location detection (prototype)
+- 📷 Photo upload support (prototype)
+- 📊 Community reports section
+- 📱 Responsive modern UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- Git
+- GitHub
+- Vercel
+
+---
+
+## 💡 Inspiration
+
+Many civic issues remain unresolved because citizens don't know where to report them or the reporting process is too complicated. CivicLink aims to simplify this by providing an intuitive platform that helps connect citizens with the appropriate civic departments.
+
+---
+
+## 🧠 How AI is Used
+
+The AI analysis feature processes the user's issue description and determines:
+
+- Issue category
+- Responsible department
+- Priority level
+- Confidence score
+
+This demonstrates how AI can assist in organizing and routing civic complaints more efficiently.
+
+---
+
+## 🤖 How GPT-5.5 & Codex Were Used
+
+During development, GPT-5.5 and Codex were used to assist with:
+
+- React component development
+- JavaScript debugging
+- UI improvements
+- CSS styling suggestions
+- Code optimization
+- Project documentation
+- Brainstorming features and user experience
+
+The application's architecture, design decisions, customization, testing, and final implementation were completed and integrated by the developer.
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/CivicLink.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🌐 Live Demo
+
+**Vercel:**  
+https://YOUR-VERCEL-LINK.vercel.app
+
+---
+
+## 📸 Screenshots
+
+- Homepage
+- AI Issue Analysis
+- Community Reports
+- How It Works
+
+---
+
+## 🔮 Future Improvements
+
+- Real OpenAI API integration
+- User authentication
+- Interactive map view
+- Image-based issue detection
+- Real-time issue tracking
+- Municipal system integration
+- Push notifications
+- Multilingual support
+
+---
+
+## 📄 License
+
+This project was developed for the **OpenAI Build Week Hackathon 2026**.
