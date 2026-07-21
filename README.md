@@ -5,6 +5,14 @@
 CivicLink is an AI-powered civic issue reporting platform that helps citizens report public infrastructure problems quickly and efficiently. Users can describe issues such as potholes, broken streetlights, garbage overflow, water leaks, and more. The platform analyzes the report, identifies the appropriate department, and prioritizes the issue.
 
 ---
+---
+
+## 🌐 Live Demo
+
+**Vercel:**  
+https://civiclink1-7f9a.vercel.app/
+
+---
 
 ## 🌟 Features
 
@@ -93,14 +101,7 @@ Open:
 http://localhost:5173
 ```
 
----
 
-## 🌐 Live Demo
-
-**Vercel:**  
-https://YOUR-VERCEL-LINK.vercel.app
-
----
 
 ## 📸 Screenshots
 
